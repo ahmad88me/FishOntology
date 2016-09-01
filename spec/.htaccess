@@ -1,19 +1,3 @@
-Skip to content
-This repository
-Search
-Pull requests
-Issues
-Gist
- @mohdnajib1985
- Watch 15
-  Star 80
-  Fork 224 perma-id/w3id.org
- Code  Issues 10  Pull requests 5  Wiki  Pulse  Graphs
-Branch: master Find file Copy pathw3id.org/games/spec/.htaccess
-a235d06  on Dec 22, 2015
-@dgarijo dgarijo content negotiation according to best practices
-1 contributor
-RawBlameHistory     57 lines (51 sloc)  3.17 KB
 Options +FollowSymLinks
 # Turn off MultiViews
 Options -MultiViews
@@ -35,8 +19,8 @@ RewriteCond %{HTTP_ACCEPT} \*/\* [OR]
 RewriteCond %{HTTP_USER_AGENT} ^Mozilla/.*
 RewriteRule ^fishontology$ http://www.essepuntato.it/lode/owlapi/reasoner/http://stiberhad.asuscomm.com:8080/najib/FishOntology.owl#d4e41505  [R=303,NE,L]
 RewriteCond %{HTTP_ACCEPT} ^.*application/rdf\+xml.* 
-RewriteRule ^fishontology$ https://github.com/mohdnajib1985/FishOntology/new/master/FishOntology.owl [R=303,NE,L]
+RewriteRule ^fishontology$ https://raw.githubusercontent.com/mohdnajib1985/FishOntology/master/FishOntology.owl [R=303,NE,L]
 RewriteCond %{HTTP_ACCEPT} ^.*text/turtle.* 
-RewriteRule ^fishontology$ https://github.com/mohdnajib1985/FishOntology/new/master/FishOntology.ttl [R=303,NE,L]
+RewriteRule ^fishontology$ https://raw.githubusercontent.com/mohdnajib1985/FishOntology/master/FishOntology.ttl [R=303,NE,L]
 #default response: owl
-RewriteRule ^fishontology$ https://github.com/mohdnajib1985/FishOntology/new/master/FishOntology.owl [R=303,NE,L]
+RewriteRule ^fishontology$ https://raw.githubusercontent.com/mohdnajib1985/FishOntology/master/FishOntology.owl [R=303,NE,L]
