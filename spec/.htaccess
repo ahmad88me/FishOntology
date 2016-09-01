@@ -33,10 +33,10 @@ RewriteCond %{HTTP_ACCEPT} application/xhtml\+xml [OR]
 RewriteCond %{HTTP_ACCEPT} text/\* [OR]
 RewriteCond %{HTTP_ACCEPT} \*/\* [OR]
 RewriteCond %{HTTP_USER_AGENT} ^Mozilla/.*
-RewriteRule ^coil$ http://www.essepuntato.it/lode/owlapi/reasoner/http://stiberhad.asuscomm.com:8080/najib/FishOntology.owl#d4e41505  [R=303,NE,L]
+RewriteRule ^fishontology$ http://www.essepuntato.it/lode/owlapi/reasoner/http://stiberhad.asuscomm.com:8080/najib/FishOntology.owl#d4e41505  [R=303,NE,L]
 RewriteCond %{HTTP_ACCEPT} ^.*application/rdf\+xml.* 
-RewriteRule ^coil$ https://github.com/mohdnajib1985/FishOntology/new/master/FishOntology.owl [R=303,NE,L]
+RewriteRule ^fishontology$ https://github.com/mohdnajib1985/FishOntology/new/master/FishOntology.owl [R=303,NE,L]
 RewriteCond %{HTTP_ACCEPT} ^.*text/turtle.* 
-RewriteRule ^coil$ https://github.com/mohdnajib1985/FishOntology/new/master/FishOntology.ttl [R=303,NE,L]
+RewriteRule ^fishontology$ https://github.com/mohdnajib1985/FishOntology/new/master/FishOntology.ttl [R=303,NE,L]
 #default response: owl
-RewriteRule ^coil$ https://github.com/mohdnajib1985/FishOntology/new/master/FishOntology.owl [R=303,NE,L]
+RewriteRule ^fishontology$ https://github.com/mohdnajib1985/FishOntology/new/master/FishOntology.owl [R=303,NE,L]
