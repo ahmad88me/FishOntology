@@ -1,0 +1,11 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+<https://w3id.org/dsablum/FishOntology/version/1.0.0> a prov:Entity;
+	 dc:title "Fish Ontology";
+	 prov:wasAttributedTo [ a prov:Agent; foaf:name "Mohd Najib".];
+	 prov:wasAttributedTo [ a prov:Agent; foaf:name "Sarinder Kaur".];
+	 prov:wasAttributedTo [ a prov:Agent; foaf:name "Amy Then".];
+	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
+	 prov:wasGeneratedAt "August 29, 2016 4:37:39 PM";
+.
