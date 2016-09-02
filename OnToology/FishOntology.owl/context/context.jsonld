@@ -1,0 +1,5698 @@
+{
+  "@context" : {
+    "VTO_0046332" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0046332"
+    },
+    "VTO_9000339" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9000339"
+    },
+    "VTO_9011783" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011783"
+    },
+    "FO_0000072" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000072"
+    },
+    "FO_0000400" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000400"
+    },
+    "VTO_9031053" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9031053"
+    },
+    "VTO_9033097" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9033097"
+    },
+    "FO_0000173" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000173"
+    },
+    "VTO_9007697" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9007697"
+    },
+    "VTO_9031029" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9031029"
+    },
+    "VTO_9029321" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9029321"
+    },
+    "VTO_9046448" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046448"
+    },
+    "VTO_9013281" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013281"
+    },
+    "VTO_9014913" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9014913"
+    },
+    "FO_0000451" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000451"
+    },
+    "FO_0000013" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000013"
+    },
+    "VTO_9033203" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9033203"
+    },
+    "VTO_9031037" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9031037"
+    },
+    "FO_0000157" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000157"
+    },
+    "VTO_9014107" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9014107"
+    },
+    "VTO_0058706" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0058706"
+    },
+    "FO_0000022" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000022"
+    },
+    "VTO_9015843" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015843"
+    },
+    "VTO_9024790" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024790"
+    },
+    "FO_0000342" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000342"
+    },
+    "VTO_9032758" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9032758"
+    },
+    "VTO_9016129" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9016129"
+    },
+    "FO_0000069" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000069"
+    },
+    "VTO_9014112" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9014112"
+    },
+    "VTO_9031035" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9031035"
+    },
+    "VTO_0046329" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0046329"
+    },
+    "VTO_9025466" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025466"
+    },
+    "VTO_0046337" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0046337"
+    },
+    "VTO_9031213" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9031213"
+    },
+    "FO_0000492" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000492"
+    },
+    "VTO_0052352" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0052352"
+    },
+    "VTO_9026374" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9026374"
+    },
+    "VTO_9002630" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9002630"
+    },
+    "VTO_0033666" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0033666"
+    },
+    "VTO_9008359" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9008359"
+    },
+    "VTO_0052340" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0052340"
+    },
+    "FO_0000137" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000137"
+    },
+    "VTO_9033434" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9033434"
+    },
+    "VTO_9008353" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9008353"
+    },
+    "FO_0000487" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000487"
+    },
+    "VTO_0000011" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000011"
+    },
+    "VTO_9024515" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024515"
+    },
+    "VTO_9015839" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015839"
+    },
+    "VTO_9024683" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024683"
+    },
+    "VTO_9046421" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046421"
+    },
+    "VTO_9033131" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9033131"
+    },
+    "VTO_9025309" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025309"
+    },
+    "VTO_9024181" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024181"
+    },
+    "VTO_9026943" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9026943"
+    },
+    "VTO_0058560" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0058560"
+    },
+    "FO_0000510" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000510"
+    },
+    "VTO_9022701" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9022701"
+    },
+    "VTO_9025264" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025264"
+    },
+    "VTO_9015733" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015733"
+    },
+    "VTO_9012732" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9012732"
+    },
+    "VTO_9013595" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013595"
+    },
+    "VTO_9010744" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9010744"
+    },
+    "VTO_0041824" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0041824"
+    },
+    "VTO_9025429" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025429"
+    },
+    "VTO_9030876" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9030876"
+    },
+    "VTO_9013571" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013571"
+    },
+    "VTO_9023366" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9023366"
+    },
+    "VTO_9015730" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015730"
+    },
+    "VTO_9004649" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9004649"
+    },
+    "VTO_9000402" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9000402"
+    },
+    "VTO_9025366" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025366"
+    },
+    "VTO_9046462" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046462"
+    },
+    "VTO_0074317" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0074317"
+    },
+    "VTO_9025982" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025982"
+    },
+    "VTO_9033975" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9033975"
+    },
+    "VTO_9046437" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046437"
+    },
+    "FO_0000351" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000351"
+    },
+    "VTO_0033592" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0033592"
+    },
+    "VTO_9015767" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015767"
+    },
+    "VTO_9011114" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011114"
+    },
+    "VTO_9023322" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9023322"
+    },
+    "VTO_9008734" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9008734"
+    },
+    "VTO_0033625" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0033625"
+    },
+    "VTO_0041708" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0041708"
+    },
+    "VTO_9024788" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024788"
+    },
+    "VTO_0074307" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0074307"
+    },
+    "VTO_9011944" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011944"
+    },
+    "FO_0000325" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000325"
+    },
+    "FO_0000142" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000142"
+    },
+    "FO_0000488" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000488"
+    },
+    "VTO_9015884" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015884"
+    },
+    "TAXRANK_0000000" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000000"
+    },
+    "VTO_9024486" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024486"
+    },
+    "TAXRANK_0000046" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000046"
+    },
+    "FO_0000093" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000093"
+    },
+    "VTO_9011704" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011704"
+    },
+    "TAXRANK_0000009" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000009"
+    },
+    "VTO_9025433" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025433"
+    },
+    "VTO_9019027" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019027"
+    },
+    "VTO_9011723" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011723"
+    },
+    "FO_0000046" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000046"
+    },
+    "VTO_9013958" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013958"
+    },
+    "VTO_0074313" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0074313"
+    },
+    "VTO_9002689" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9002689"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "FO_0000344" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000344"
+    },
+    "VTO_0046362" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0046362"
+    },
+    "VTO_9019436" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019436"
+    },
+    "FO_0000155" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000155"
+    },
+    "VTO_9028806" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9028806"
+    },
+    "VTO_9015753" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015753"
+    },
+    "VTO_9011093" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011093"
+    },
+    "VTO_9046471" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046471"
+    },
+    "FO_0000043" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000043"
+    },
+    "FO_0000140" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000140"
+    },
+    "FO_0000420" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000420"
+    },
+    "VTO_9024149" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024149"
+    },
+    "VTO_0046375" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0046375"
+    },
+    "FO_0000010" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000010"
+    },
+    "VTO_0058605" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0058605"
+    },
+    "VTO_9011738" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011738"
+    },
+    "FO_0000217" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000217"
+    },
+    "VTO_9024631" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024631"
+    },
+    "VTO_9015919" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015919"
+    },
+    "FO_0000369" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000369"
+    },
+    "VTO_9007866" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9007866"
+    },
+    "FO_0000270" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000270"
+    },
+    "VTO_9015488" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015488"
+    },
+    "FO_0000456" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000456"
+    },
+    "VTO_9033100" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9033100"
+    },
+    "VTO_9046459" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046459"
+    },
+    "FO_0000347" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000347"
+    },
+    "VTO_9046415" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046415"
+    },
+    "FO_0000432" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000432"
+    },
+    "VTO_9004473" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9004473"
+    },
+    "VTO_9004248" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9004248"
+    },
+    "VTO_9012326" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9012326"
+    },
+    "VTO_0000524" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000524"
+    },
+    "TAXRANK_0000027" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000027"
+    },
+    "VTO_9024789" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024789"
+    },
+    "FO_0000099" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000099"
+    },
+    "VTO_0000518" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000518"
+    },
+    "VTO_9000336" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9000336"
+    },
+    "FO_0000119" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000119"
+    },
+    "VTO_9004557" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9004557"
+    },
+    "VTO_0046371" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0046371"
+    },
+    "VTO_9019516" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019516"
+    },
+    "VTO_9012741" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9012741"
+    },
+    "VTO_9004736" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9004736"
+    },
+    "VTO_0033657" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0033657"
+    },
+    "VTO_9025292" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025292"
+    },
+    "VTO_9002202" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9002202"
+    },
+    "FO_0000503" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000503"
+    },
+    "FO_0000493" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000493"
+    },
+    "VTO_9015943" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015943"
+    },
+    "FO_0000174" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000174"
+    },
+    "VTO_9000425" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9000425"
+    },
+    "FO_0000052" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000052"
+    },
+    "VTO_9016045" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9016045"
+    },
+    "VTO_9031039" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9031039"
+    },
+    "VTO_9024754" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024754"
+    },
+    "VTO_9033692" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9033692"
+    },
+    "VTO_9015836" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015836"
+    },
+    "VTO_9000406" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9000406"
+    },
+    "FO_0000062" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000062"
+    },
+    "VTO_9025325" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025325"
+    },
+    "VTO_9023447" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9023447"
+    },
+    "FO_0000486" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000486"
+    },
+    "FO_0000152" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000152"
+    },
+    "FO_0000319" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000319"
+    },
+    "VTO_0058561" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0058561"
+    },
+    "VTO_9013753" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013753"
+    },
+    "hasExactSynonym" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"
+    },
+    "VTO_0000624" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000624"
+    },
+    "VTO_0033637" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0033637"
+    },
+    "FO_0000117" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000117"
+    },
+    "FO_0000355" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000355"
+    },
+    "TAXRANK_0000019" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000019"
+    },
+    "VTO_9014094" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9014094"
+    },
+    "VTO_0046355" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0046355"
+    },
+    "VTO_9011739" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011739"
+    },
+    "VTO_9024776" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024776"
+    },
+    "FO_0000471" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000471"
+    },
+    "VTO_9009649" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9009649"
+    },
+    "VTO_0033622" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0033622"
+    },
+    "VTO_0046339" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0046339"
+    },
+    "VTO_9013972" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013972"
+    },
+    "VTO_9026372" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9026372"
+    },
+    "VTO_9010310" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9010310"
+    },
+    "VTO_0000519" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000519"
+    },
+    "VTO_9010286" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9010286"
+    },
+    "FO_0000398" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000398"
+    },
+    "VTO_9013949" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013949"
+    },
+    "has_obo_namespace" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#has_obo_namespace"
+    },
+    "VTO_9016144" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9016144"
+    },
+    "VTO_9013944" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013944"
+    },
+    "FO_0000096" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000096"
+    },
+    "TAXRANK_0000042" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000042"
+    },
+    "FO_0000246" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000246"
+    },
+    "VTO_0000484" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000484"
+    },
+    "VTO_9007747" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9007747"
+    },
+    "VTO_9015681" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015681"
+    },
+    "FO_0000108" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000108"
+    },
+    "VTO_9009425" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9009425"
+    },
+    "VTO_9046426" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046426"
+    },
+    "VTO_9008736" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9008736"
+    },
+    "VTO_9025363" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025363"
+    },
+    "VTO_0058732" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0058732"
+    },
+    "VTO_9019638" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019638"
+    },
+    "VTO_9033564" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9033564"
+    },
+    "VTO_9011101" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011101"
+    },
+    "VTO_9009596" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9009596"
+    },
+    "VTO_9046420" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046420"
+    },
+    "VTO_9010968" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9010968"
+    },
+    "FO_0000397" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000397"
+    },
+    "VTO_9026336" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9026336"
+    },
+    "VTO_9013942" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013942"
+    },
+    "citation" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#citation"
+    },
+    "VTO_9009640" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9009640"
+    },
+    "VTO_9019399" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019399"
+    },
+    "VTO_9012155" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9012155"
+    },
+    "VTO_0046350" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0046350"
+    },
+    "FO_0000192" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000192"
+    },
+    "FO_0000321" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000321"
+    },
+    "VTO_9019038" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019038"
+    },
+    "VTO_9012172" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9012172"
+    },
+    "VTO_9025270" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025270"
+    },
+    "VTO_9028899" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9028899"
+    },
+    "VTO_9019490" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019490"
+    },
+    "FO_0000236" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000236"
+    },
+    "VTO_9014087" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9014087"
+    },
+    "VTO_0046392" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0046392"
+    },
+    "VTO_9016172" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9016172"
+    },
+    "VTO_9025468" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025468"
+    },
+    "FO_0000090" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000090"
+    },
+    "VTO_9007755" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9007755"
+    },
+    "VTO_9013311" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013311"
+    },
+    "VTO_9011722" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011722"
+    },
+    "VTO_0000058" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000058"
+    },
+    "VTO_0033617" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0033617"
+    },
+    "FO_0000176" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000176"
+    },
+    "VTO_9019090" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019090"
+    },
+    "VTO_9019557" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019557"
+    },
+    "VTO_9019059" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019059"
+    },
+    "FO_0000497" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000497"
+    },
+    "VTO_9046456" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046456"
+    },
+    "VTO_9024757" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024757"
+    },
+    "VTO_0058725" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0058725"
+    },
+    "VTO_0058724" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0058724"
+    },
+    "VTO_9024772" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024772"
+    },
+    "VTO_9033229" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9033229"
+    },
+    "VTO_9033161" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9033161"
+    },
+    "VTO_9015941" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015941"
+    },
+    "FO_0000495" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000495"
+    },
+    "VTO_9025943" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025943"
+    },
+    "VTO_9033395" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9033395"
+    },
+    "VTO_9046463" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046463"
+    },
+    "addedBy" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#addedBy"
+    },
+    "VTO_9014907" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9014907"
+    },
+    "VTO_9016152" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9016152"
+    },
+    "VTO_0046347" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0046347"
+    },
+    "VTO_9004732" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9004732"
+    },
+    "VTO_9046444" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046444"
+    },
+    "VTO_9012772" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9012772"
+    },
+    "VTO_0046390" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0046390"
+    },
+    "VTO_9015662" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015662"
+    },
+    "VTO_9030992" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9030992"
+    },
+    "VTO_0074325" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0074325"
+    },
+    "FO_0000009" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000009"
+    },
+    "VTO_9016046" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9016046"
+    },
+    "FO_0000162" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000162"
+    },
+    "FO_0000138" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000138"
+    },
+    "NCBITaxon_1405575" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_1405575"
+    },
+    "VTO_9026343" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9026343"
+    },
+    "VTO_9018214" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9018214"
+    },
+    "FO_0000179" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000179"
+    },
+    "TAXRANK_0000024" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000024"
+    },
+    "VTO_0000074" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000074"
+    },
+    "VTO_9010283" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9010283"
+    },
+    "VTO_9016041" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9016041"
+    },
+    "VTO_9011135" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011135"
+    },
+    "VTO_9002208" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9002208"
+    },
+    "VTO_9046455" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046455"
+    },
+    "VTO_9046413" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046413"
+    },
+    "VTO_9046431" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046431"
+    },
+    "VTO_9012765" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9012765"
+    },
+    "commentSource" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#commentSource"
+    },
+    "VTO_9010748" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9010748"
+    },
+    "VTO_9008393" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9008393"
+    },
+    "VTO_0000510" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000510"
+    },
+    "VTO_9013559" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013559"
+    },
+    "VTO_9024184" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024184"
+    },
+    "VTO_0000623" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000623"
+    },
+    "FO_0000071" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000071"
+    },
+    "VTO_0000009" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000009"
+    },
+    "VTO_9000430" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9000430"
+    },
+    "VTO_9025492" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025492"
+    },
+    "VTO_9003991" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9003991"
+    },
+    "FO_0000331" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000331"
+    },
+    "VTO_9009647" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9009647"
+    },
+    "VTO_9015940" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015940"
+    },
+    "VTO_9008746" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9008746"
+    },
+    "VTO_9025981" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025981"
+    },
+    "FO_0000262" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000262"
+    },
+    "VTO_9011609" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011609"
+    },
+    "VTO_9033733" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9033733"
+    },
+    "FO_0000107" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000107"
+    },
+    "FO_0000028" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000028"
+    },
+    "FO_0000504" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000504"
+    },
+    "FO_0000340" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000340"
+    },
+    "FO_0000334" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000334"
+    },
+    "FO_0000439" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000439"
+    },
+    "TAXRANK_0000012" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000012"
+    },
+    "VTO_9013607" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013607"
+    },
+    "VTO_9030297" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9030297"
+    },
+    "VTO_9031629" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9031629"
+    },
+    "FO_0000112" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000112"
+    },
+    "VTO_9011700" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011700"
+    },
+    "VTO_9026035" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9026035"
+    },
+    "VTO_9015734" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015734"
+    },
+    "VTO_9046434" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046434"
+    },
+    "FO_0000077" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000077"
+    },
+    "VTO_9013957" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013957"
+    },
+    "VTO_0000007" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000007"
+    },
+    "FO_0000218" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000218"
+    },
+    "VTO_9030293" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9030293"
+    },
+    "VTO_0074324" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0074324"
+    },
+    "FO_0000237" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000237"
+    },
+    "VTO_9008392" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9008392"
+    },
+    "VTO_9013570" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013570"
+    },
+    "VTO_9011774" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011774"
+    },
+    "VTO_9014079" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9014079"
+    },
+    "VTO_9028900" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9028900"
+    },
+    "TAXRANK_0000058" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000058"
+    },
+    "VTO_9024740" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024740"
+    },
+    "VTO_9024770" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024770"
+    },
+    "FO_0000128" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000128"
+    },
+    "VTO_9014037" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9014037"
+    },
+    "VTO_9013131" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013131"
+    },
+    "TAXRANK_0000031" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000031"
+    },
+    "FO_0000060" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000060"
+    },
+    "FO_0000269" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000269"
+    },
+    "VTO_9009648" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9009648"
+    },
+    "NCBITaxon_1365756" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_1365756"
+    },
+    "NCBITaxon_1077316" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_1077316"
+    },
+    "FO_0000359" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000359"
+    },
+    "FO_0000336" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000336"
+    },
+    "VTO_0080726" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0080726"
+    },
+    "VTO_9029210" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9029210"
+    },
+    "FO_0000190" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000190"
+    },
+    "TAXRANK_0000008" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000008"
+    },
+    "VTO_9024674" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024674"
+    },
+    "VTO_9046443" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046443"
+    },
+    "VTO_0058709" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0058709"
+    },
+    "VTO_9019456" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019456"
+    },
+    "VTO_9011707" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011707"
+    },
+    "FO_0000484" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000484"
+    },
+    "VTO_9046424" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046424"
+    },
+    "FO_0000228" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000228"
+    },
+    "FO_0000078" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000078"
+    },
+    "VTO_9025924" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025924"
+    },
+    "VTO_9015945" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015945"
+    },
+    "VTO_9025940" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025940"
+    },
+    "FO_0000302" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000302"
+    },
+    "VTO_9024747" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024747"
+    },
+    "VTO_9024743" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024743"
+    },
+    "VTO_9013612" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013612"
+    },
+    "VTO_9011750" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011750"
+    },
+    "FO_0000389" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000389"
+    },
+    "TAXRANK_0000005" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000005"
+    },
+    "VTO_0046378" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0046378"
+    },
+    "VTO_0000610" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000610"
+    },
+    "FO_0000311" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000311"
+    },
+    "TAXRANK_0000032" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000032"
+    },
+    "VTO_9023443" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9023443"
+    },
+    "VTO_9001067" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9001067"
+    },
+    "VTO_9025948" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025948"
+    },
+    "VTO_9012170" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9012170"
+    },
+    "FO_0000410" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000410"
+    },
+    "FO_0000271" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000271"
+    },
+    "VTO_9015845" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015845"
+    },
+    "TAXRANK_0000014" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000014"
+    },
+    "VTO_9013613" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013613"
+    },
+    "VTO_9015911" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015911"
+    },
+    "VTO_9014108" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9014108"
+    },
+    "VTO_0058600" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0058600"
+    },
+    "VTO_9013589" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013589"
+    },
+    "VTO_9034177" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9034177"
+    },
+    "VTO_9012742" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9012742"
+    },
+    "FO_0000265" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000265"
+    },
+    "VTO_0058612" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0058612"
+    },
+    "VTO_9019084" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019084"
+    },
+    "VTO_9025362" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025362"
+    },
+    "VTO_9024179" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024179"
+    },
+    "VTO_9019477" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019477"
+    },
+    "VTO_9014054" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9014054"
+    },
+    "VTO_9031216" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9031216"
+    },
+    "VTO_9014110" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9014110"
+    },
+    "FO_0000216" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000216"
+    },
+    "VTO_9046466" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046466"
+    },
+    "VTO_0074306" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0074306"
+    },
+    "VTO_9016039" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9016039"
+    },
+    "VTO_0058601" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0058601"
+    },
+    "FO_0000153" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000153"
+    },
+    "VTO_9025288" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025288"
+    },
+    "VTO_0046382" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0046382"
+    },
+    "VTO_9031033" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9031033"
+    },
+    "VTO_9019409" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019409"
+    },
+    "FO_0000031" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000031"
+    },
+    "VTO_9046418" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046418"
+    },
+    "is_extinct" : {
+      "@id" : "http://purl.obolibrary.org/obo/vto#is_extinct"
+    },
+    "VTO_9008740" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9008740"
+    },
+    "VTO_9014103" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9014103"
+    },
+    "VTO_9019533" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019533"
+    },
+    "FO_0000380" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000380"
+    },
+    "VTO_9021506" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9021506"
+    },
+    "VTO_9014007" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9014007"
+    },
+    "VTO_9019044" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019044"
+    },
+    "VTO_9014009" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9014009"
+    },
+    "VTO_0058728" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0058728"
+    },
+    "VTO_0080752" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0080752"
+    },
+    "FO_0000328" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000328"
+    },
+    "VTO_9023415" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9023415"
+    },
+    "VTO_9019524" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019524"
+    },
+    "VTO_9011091" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011091"
+    },
+    "FO_0000210" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000210"
+    },
+    "VTO_9019040" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019040"
+    },
+    "VTO_9019412" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019412"
+    },
+    "VTO_9024755" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024755"
+    },
+    "VTO_9002205" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9002205"
+    },
+    "VTO_9016180" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9016180"
+    },
+    "FO_0000446" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000446"
+    },
+    "VTO_9016110" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9016110"
+    },
+    "VTO_9011605" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011605"
+    },
+    "VTO_9013969" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013969"
+    },
+    "VTO_9011106" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011106"
+    },
+    "VTO_9025299" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025299"
+    },
+    "VTO_0000517" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000517"
+    },
+    "TAXRANK_0000035" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000035"
+    },
+    "usedIn" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#usedIn"
+    },
+    "FO_0000278" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000278"
+    },
+    "FO_0000034" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000034"
+    },
+    "FO_0000136" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000136"
+    },
+    "VTO_9025268" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025268"
+    },
+    "VTO_0074320" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0074320"
+    },
+    "FO_0000109" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000109"
+    },
+    "VTO_0046368" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0046368"
+    },
+    "VTO_9031197" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9031197"
+    },
+    "VTO_9011703" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011703"
+    },
+    "VTO_9020117" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9020117"
+    },
+    "VTO_9015847" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015847"
+    },
+    "VTO_9012145" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9012145"
+    },
+    "VTO_0058731" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0058731"
+    },
+    "VTO_9033200" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9033200"
+    },
+    "FO_0000409" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000409"
+    },
+    "VTO_9014066" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9014066"
+    },
+    "TAXRANK_0000011" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000011"
+    },
+    "FO_0000309" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000309"
+    },
+    "VTO_9004738" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9004738"
+    },
+    "VTO_9025919" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025919"
+    },
+    "FO_0000008" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000008"
+    },
+    "VTO_9046446" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046446"
+    },
+    "VTO_0000746" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000746"
+    },
+    "VTO_9033038" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9033038"
+    },
+    "VTO_9029314" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9029314"
+    },
+    "VTO_9012836" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9012836"
+    },
+    "VTO_9013598" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013598"
+    },
+    "VTO_9046435" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046435"
+    },
+    "VTO_9024756" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024756"
+    },
+    "VTO_9015880" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015880"
+    },
+    "VTO_9015693" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015693"
+    },
+    "FO_0000021" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000021"
+    },
+    "FO_0000196" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000196"
+    },
+    "VTO_9008314" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9008314"
+    },
+    "VTO_9015769" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015769"
+    },
+    "VTO_9017205" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9017205"
+    },
+    "VTO_9014102" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9014102"
+    },
+    "VTO_9033222" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9033222"
+    },
+    "FO_0000170" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000170"
+    },
+    "FO_0000396" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000396"
+    },
+    "VTO_9022900" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9022900"
+    },
+    "VTO_9024763" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024763"
+    },
+    "VTO_9010397" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9010397"
+    },
+    "FO_0000036" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000036"
+    },
+    "VTO_0000069" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000069"
+    },
+    "VTO_9008366" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9008366"
+    },
+    "FO_0000438" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000438",
+      "@type" : "@id"
+    },
+    "VTO_9012740" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9012740"
+    },
+    "FO_0000481" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000481"
+    },
+    "TAXRANK_0000023" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000023"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "FO_0000230" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000230"
+    },
+    "VTO_9013278" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013278"
+    },
+    "FO_0000377" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000377"
+    },
+    "VTO_9011608" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011608"
+    },
+    "VTO_9008738" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9008738"
+    },
+    "VTO_0041727" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0041727"
+    },
+    "VTO_9008041" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9008041"
+    },
+    "FO_0000068" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000068"
+    },
+    "VTO_0046344" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0046344"
+    },
+    "VTO_9008741" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9008741"
+    },
+    "VTO_9008597" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9008597"
+    },
+    "VTO_0000068" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000068"
+    },
+    "VTO_9008343" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9008343"
+    },
+    "VTO_9013965" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013965"
+    },
+    "VTO_9033741" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9033741"
+    },
+    "VTO_9019089" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019089"
+    },
+    "FO_0000232" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000232"
+    },
+    "VTO_0033636" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0033636"
+    },
+    "VTO_9046427" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046427"
+    },
+    "FO_0000122" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000122"
+    },
+    "VTO_9015495" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015495"
+    },
+    "VTO_9031211" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9031211"
+    },
+    "VTO_9015801" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015801"
+    },
+    "FO_0000478" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000478"
+    },
+    "VTO_9024762" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024762"
+    },
+    "VTO_9013962" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013962"
+    },
+    "VTO_9015848" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015848"
+    },
+    "VTO_9016128" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9016128"
+    },
+    "FO_0000461" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000461"
+    },
+    "FO_0000045" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000045"
+    },
+    "VTO_0000615" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000615"
+    },
+    "FO_0000150" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000150"
+    },
+    "FO_0000494" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000494"
+    },
+    "VTO_0000520" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000520"
+    },
+    "VTO_9008382" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9008382"
+    },
+    "TAXRANK_0000025" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000025"
+    },
+    "VTO_9015688" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015688"
+    },
+    "VTO_9024679" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024679"
+    },
+    "VTO_9000409" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9000409"
+    },
+    "VTO_9009597" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9009597"
+    },
+    "VTO_9019081" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019081"
+    },
+    "FO_0000315" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000315"
+    },
+    "VTO_0033660" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0033660"
+    },
+    "VTO_9007345" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9007345"
+    },
+    "VTO_9034178" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9034178"
+    },
+    "VTO_9029068" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9029068"
+    },
+    "VTO_9012319" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9012319"
+    },
+    "VTO_9012345" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9012345"
+    },
+    "VTO_9025256" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025256"
+    },
+    "VTO_9016140" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9016140"
+    },
+    "VTO_9011881" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011881"
+    },
+    "VTO_9024748" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024748"
+    },
+    "VTO_9025926" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025926"
+    },
+    "VTO_9023441" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9023441"
+    },
+    "VTO_9000834" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9000834"
+    },
+    "VTO_9014092" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9014092"
+    },
+    "VTO_0080727" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0080727"
+    },
+    "FO_0000450" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000450"
+    },
+    "VTO_0000528" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000528"
+    },
+    "FO_0000201" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000201"
+    },
+    "VTO_9014081" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9014081"
+    },
+    "TAXRANK_0000038" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000038"
+    },
+    "VTO_9014031" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9014031"
+    },
+    "VTO_9029316" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9029316"
+    },
+    "FO_0000089" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000089"
+    },
+    "VTO_9019101" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019101"
+    },
+    "VTO_0033629" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0033629"
+    },
+    "TAXRANK_0000030" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000030"
+    },
+    "VTO_0058707" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0058707"
+    },
+    "VTO_0000612" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000612"
+    },
+    "VTO_9024681" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024681"
+    },
+    "FO_0000003" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000003"
+    },
+    "VTO_9008537" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9008537"
+    },
+    "VTO_9015497" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015497"
+    },
+    "VTO_9025461" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025461"
+    },
+    "VTO_9033231" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9033231"
+    },
+    "VTO_9010284" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9010284"
+    },
+    "VTO_9025969" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025969"
+    },
+    "VTO_9019495" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019495"
+    },
+    "VTO_9023420" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9023420"
+    },
+    "VTO_9019492" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019492"
+    },
+    "VTO_9014035" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9014035"
+    },
+    "VTO_9014104" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9014104"
+    },
+    "FO_0000353" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000353"
+    },
+    "FO_0000033" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000033"
+    },
+    "VTO_9024187" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024187"
+    },
+    "VTO_0000742" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000742"
+    },
+    "VTO_9031228" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9031228"
+    },
+    "VTO_9011744" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011744"
+    },
+    "VTO_9025271" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025271"
+    },
+    "VTO_0000630" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000630"
+    },
+    "VTO_9011780" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011780"
+    },
+    "FO_0000080" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000080"
+    },
+    "VTO_9003596" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9003596"
+    },
+    "FO_0000345" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000345"
+    },
+    "VTO_9011131" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011131"
+    },
+    "FO_0000402" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000402"
+    },
+    "VTO_9010470" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9010470"
+    },
+    "VTO_9046450" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046450"
+    },
+    "FO_0000001" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000001"
+    },
+    "VTO_0058590" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0058590"
+    },
+    "VTO_9012734" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9012734"
+    },
+    "VTO_9033425" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9033425"
+    },
+    "VTO_9011630" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011630"
+    },
+    "VTO_9012768" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9012768"
+    },
+    "VTO_9024768" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024768"
+    },
+    "FO_0000204" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000204"
+    },
+    "VTO_0059172" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0059172"
+    },
+    "VTO_9026339" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9026339"
+    },
+    "VTO_9017584" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9017584"
+    },
+    "FO_0000245" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000245"
+    },
+    "VTO_0052354" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0052354"
+    },
+    "VTO_9011786" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011786"
+    },
+    "VTO_9014061" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9014061"
+    },
+    "VTO_9025970" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025970"
+    },
+    "FO_0000416" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000416"
+    },
+    "VTO_9015893" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015893"
+    },
+    "VTO_9014064" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9014064"
+    },
+    "VTO_9018210" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9018210"
+    },
+    "VTO_9011137" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011137"
+    },
+    "FO_0000475" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000475"
+    },
+    "VTO_9002042" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9002042"
+    },
+    "VTO_0046336" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0046336"
+    },
+    "VTO_9008600" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9008600"
+    },
+    "NCBITaxon_1405574" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_1405574"
+    },
+    "VTO_9015802" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015802"
+    },
+    "VTO_0058711" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0058711"
+    },
+    "VTO_9019462" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019462"
+    },
+    "VTO_9025337" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025337"
+    },
+    "VTO_9016156" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9016156"
+    },
+    "VTO_9023444" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9023444"
+    },
+    "VTO_9046460" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046460"
+    },
+    "VTO_9008744" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9008744"
+    },
+    "FO_0000130" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000130"
+    },
+    "VTO_9015692" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015692"
+    },
+    "VTO_9027581" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9027581"
+    },
+    "VTO_0058556" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0058556"
+    },
+    "VTO_9046423" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046423"
+    },
+    "FO_0000324" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000324"
+    },
+    "VTO_9008390" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9008390"
+    },
+    "TAXRANK_0000017" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000017"
+    },
+    "FO_0000376" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000376"
+    },
+    "FO_0000015" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000015"
+    },
+    "id" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#id"
+    },
+    "FO_0000500" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000500"
+    },
+    "FO_0000505" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000505"
+    },
+    "FO_0000018" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000018",
+      "@type" : "@id"
+    },
+    "VTO_9031031" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9031031"
+    },
+    "FO_0000261" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000261"
+    },
+    "VTO_9016048" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9016048"
+    },
+    "VTO_9019080" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019080"
+    },
+    "VTO_9014063" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9014063"
+    },
+    "VTO_9033437" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9033437"
+    },
+    "VTO_0000071" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000071"
+    },
+    "VTO_9011111" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011111"
+    },
+    "FO_0000384" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000384"
+    },
+    "VTO_9024178" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024178"
+    },
+    "VTO_9019077" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019077"
+    },
+    "FO_0000102" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000102"
+    },
+    "VTO_9004124" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9004124"
+    },
+    "VTO_9015724" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015724"
+    },
+    "FO_0000274" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000274"
+    },
+    "VTO_9033408" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9033408"
+    },
+    "VTO_9013594" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013594"
+    },
+    "TAXRANK_0000016" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000016"
+    },
+    "VTO_9018629" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9018629"
+    },
+    "VTO_9046414" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046414"
+    },
+    "VTO_9001059" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9001059"
+    },
+    "FO_0000202" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000202"
+    },
+    "FO_0000159" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000159"
+    },
+    "VTO_0059168" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0059168"
+    },
+    "VTO_9026884" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9026884"
+    },
+    "FO_0000165" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000165"
+    },
+    "VTO_9010089" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9010089"
+    },
+    "created_by" : {
+      "@id" : "http://purl.obolibrary.org/obo/created_by"
+    },
+    "FO_0000219" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000219"
+    },
+    "VTO_9014093" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9014093"
+    },
+    "VTO_9011933" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011933"
+    },
+    "VTO_0052353" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0052353"
+    },
+    "VTO_9011784" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011784"
+    },
+    "VTO_0033661" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0033661"
+    },
+    "FO_0000460" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000460"
+    },
+    "VTO_9000707" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9000707"
+    },
+    "VTO_9012124" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9012124"
+    },
+    "VTO_9019496" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019496"
+    },
+    "FO_0000120" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000120"
+    },
+    "FO_0000341" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000341"
+    },
+    "VTO_9029206" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9029206"
+    },
+    "VTO_9011729" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011729"
+    },
+    "FO_0000390" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000390"
+    },
+    "VTO_9016178" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9016178"
+    },
+    "VTO_0046372" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0046372"
+    },
+    "FO_0000499" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000499"
+    },
+    "FO_0000255" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000255"
+    },
+    "VTO_9033093" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9033093"
+    },
+    "FO_0000463" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000463"
+    },
+    "VTO_9015486" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015486"
+    },
+    "VTO_0058585" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0058585"
+    },
+    "VTO_9015728" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015728"
+    },
+    "FO_0000092" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000092"
+    },
+    "VTO_9046430" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046430"
+    },
+    "FO_0000182" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000182"
+    },
+    "TAXRANK_0000003" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000003"
+    },
+    "FO_0000258" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000258"
+    },
+    "FO_0000118" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000118"
+    },
+    "VTO_9008739" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9008739"
+    },
+    "VTO_9025300" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025300"
+    },
+    "VTO_9010018" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9010018"
+    },
+    "FO_0000076" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000076"
+    },
+    "FO_0000029" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000029"
+    },
+    "FO_0000151" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000151"
+    },
+    "VTO_9002084" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9002084"
+    },
+    "TAXRANK_0000029" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000029"
+    },
+    "FO_0000455" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000455",
+      "@type" : "@id"
+    },
+    "VTO_9011708" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011708"
+    },
+    "FO_0000121" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000121"
+    },
+    "FO_0000248" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000248"
+    },
+    "VTO_9019085" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019085"
+    },
+    "VTO_9011133" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011133"
+    },
+    "VTO_0058599" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0058599"
+    },
+    "VTO_9000342" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9000342"
+    },
+    "VTO_9019459" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019459"
+    },
+    "TAXRANK_0000043" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000043"
+    },
+    "VTO_0046363" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0046363"
+    },
+    "VTO_9014049" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9014049"
+    },
+    "VTO_9024759" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024759"
+    },
+    "VTO_9046449" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046449"
+    },
+    "VTO_0058715" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0058715"
+    },
+    "VTO_9046419" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046419"
+    },
+    "VTO_0046376" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0046376"
+    },
+    "VTO_9026034" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9026034"
+    },
+    "FO_0000301" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000301"
+    },
+    "FO_0000252" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000252",
+      "@type" : "@id"
+    },
+    "VTO_9016040" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9016040"
+    },
+    "VTO_9011844" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011844"
+    },
+    "VTO_9012764" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9012764"
+    },
+    "VTO_9022700" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9022700"
+    },
+    "VTO_9024749" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024749"
+    },
+    "FO_0000298" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000298"
+    },
+    "VTO_9012116" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9012116"
+    },
+    "VTO_9019100" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019100"
+    },
+    "VTO_9016131" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9016131"
+    },
+    "VTO_9019007" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019007"
+    },
+    "VTO_9002035" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9002035"
+    },
+    "VTO_9013550" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013550"
+    },
+    "VTO_9010493" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9010493"
+    },
+    "TAXRANK_0000007" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000007"
+    },
+    "VTO_9009652" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9009652"
+    },
+    "VTO_9025937" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025937"
+    },
+    "VTO_9012346" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9012346"
+    },
+    "FO_0000016" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000016"
+    },
+    "VTO_0058607" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0058607"
+    },
+    "VTO_9033233" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9033233"
+    },
+    "hasRelatedSynonym" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"
+    },
+    "FO_0000054" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000054"
+    },
+    "FO_0000275" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000275"
+    },
+    "TAXRANK_0000034" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000034"
+    },
+    "VTO_9024753" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024753"
+    },
+    "NCBITaxon_166759" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_166759"
+    },
+    "VTO_9024151" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024151"
+    },
+    "TAXRANK_0000051" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000051"
+    },
+    "VTO_9030485" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9030485"
+    },
+    "VTO_9010303" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9010303"
+    },
+    "VTO_9025344" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025344"
+    },
+    "VTO_9011865" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011865"
+    },
+    "FO_0000308" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000308"
+    },
+    "VTO_9015473" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015473"
+    },
+    "VTO_9028815" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9028815"
+    },
+    "VTO_0033662" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0033662"
+    },
+    "FO_0000082" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000082"
+    },
+    "VTO_9033947" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9033947"
+    },
+    "VTO_9025297" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025297"
+    },
+    "VTO_9024791" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024791"
+    },
+    "VTO_9014947" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9014947"
+    },
+    "VTO_9019026" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019026"
+    },
+    "FO_0000224" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000224"
+    },
+    "VTO_9013304" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013304"
+    },
+    "VTO_9030505" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9030505"
+    },
+    "VTO_9004529" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9004529"
+    },
+    "FO_0000422" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000422"
+    },
+    "FO_0000476" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000476"
+    },
+    "VTO_9026348" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9026348"
+    },
+    "FO_0000193" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000193"
+    },
+    "VTO_9014042" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9014042"
+    },
+    "VTO_9026000" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9026000"
+    },
+    "FO_0000115" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000115"
+    },
+    "VTO_9046429" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046429"
+    },
+    "FO_0000199" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000199"
+    },
+    "FO_0000167" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000167"
+    },
+    "VTO_9046436" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046436"
+    },
+    "FO_0000445" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000445"
+    },
+    "FO_0000222" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000222"
+    },
+    "VTO_9025339" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025339"
+    },
+    "VTO_9007749" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9007749"
+    },
+    "VTO_0058548" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0058548"
+    },
+    "VTO_9027571" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9027571"
+    },
+    "VTO_0058587" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0058587"
+    },
+    "VTO_9015664" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015664"
+    },
+    "FO_0000480" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000480"
+    },
+    "FO_0000474" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000474"
+    },
+    "VTO_0058608" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0058608"
+    },
+    "VTO_0034001" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0034001"
+    },
+    "VTO_9003361" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9003361"
+    },
+    "VTO_0074310" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0074310"
+    },
+    "VTO_9019494" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019494"
+    },
+    "VTO_9013553" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013553"
+    },
+    "VTO_9010393" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9010393"
+    },
+    "VTO_9015811" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015811"
+    },
+    "VTO_9046425" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046425"
+    },
+    "FO_0000035" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000035"
+    },
+    "VTO_0046377" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0046377"
+    },
+    "VTO_9012743" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9012743"
+    },
+    "VTO_9000330" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9000330"
+    },
+    "TAXRANK_0000050" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000050"
+    },
+    "VTO_0046328" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0046328"
+    },
+    "FO_0000053" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000053"
+    },
+    "VTO_9016169" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9016169"
+    },
+    "VTO_9012120" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9012120"
+    },
+    "VTO_0033593" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0033593"
+    },
+    "FO_0000166" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000166"
+    },
+    "VTO_9004525" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9004525"
+    },
+    "VTO_0080421" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0080421"
+    },
+    "VTO_9019094" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019094"
+    },
+    "FO_0000506" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000506"
+    },
+    "VTO_9008300" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9008300"
+    },
+    "FO_0000501" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000501"
+    },
+    "TAXRANK_0000013" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000013"
+    },
+    "VTO_9024676" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024676"
+    },
+    "VTO_9025346" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025346"
+    },
+    "VTO_9008299" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9008299"
+    },
+    "VTO_9033406" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9033406"
+    },
+    "VTO_9025467" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025467"
+    },
+    "VTO_9024739" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024739"
+    },
+    "VTO_9015720" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015720"
+    },
+    "VTO_0059174" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0059174"
+    },
+    "VTO_9046451" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046451"
+    },
+    "VTO_9016143" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9016143"
+    },
+    "TAXRANK_0000049" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000049"
+    },
+    "VTO_9025949" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025949"
+    },
+    "VTO_9025923" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025923"
+    },
+    "FO_0000213" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000213"
+    },
+    "VTO_9010308" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9010308"
+    },
+    "creator" : {
+      "@id" : "http://mybiodiversityontologies.um.edu.my/FO.owl#creator"
+    },
+    "FO_0000479" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000479"
+    },
+    "FO_0000339" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000339"
+    },
+    "FO_0000215" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000215"
+    },
+    "FO_0000114" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000114"
+    },
+    "FO_0000391" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000391"
+    },
+    "VTO_9015484" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015484"
+    },
+    "VTO_0000072" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000072"
+    },
+    "VTO_9013587" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013587"
+    },
+    "VTO_9029191" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9029191"
+    },
+    "VTO_9014970" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9014970"
+    },
+    "FO_0000223" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000223"
+    },
+    "FO_0000221" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000221"
+    },
+    "FO_0000183" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000183"
+    },
+    "VTO_9033208" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9033208"
+    },
+    "FO_0000149" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000149"
+    },
+    "VTO_0046356" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0046356"
+    },
+    "VTO_9025258" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025258"
+    },
+    "VTO_9010742" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9010742"
+    },
+    "VTO_9019529" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019529"
+    },
+    "FO_0000457" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000457"
+    },
+    "FO_0000372" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000372"
+    },
+    "VTO_0074318" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0074318"
+    },
+    "FO_0000113" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000113"
+    },
+    "VTO_9011847" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011847"
+    },
+    "VTO_9016106" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9016106"
+    },
+    "VTO_9010391" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9010391"
+    },
+    "VTO_9026001" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9026001"
+    },
+    "VTO_9014109" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9014109"
+    },
+    "TAXRANK_0000020" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000020"
+    },
+    "VTO_9019480" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019480"
+    },
+    "VTO_9011782" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011782"
+    },
+    "VTO_0080728" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0080728"
+    },
+    "VTO_9024792" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024792"
+    },
+    "topObjectProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+      "@type" : "@id"
+    },
+    "VTO_9017128" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9017128"
+    },
+    "VTO_9008539" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9008539"
+    },
+    "VTO_9025493" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025493"
+    },
+    "VTO_9018627" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9018627"
+    },
+    "TAXRANK_0000015" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000015"
+    },
+    "VTO_9013584" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013584"
+    },
+    "VTO_0000604" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000604"
+    },
+    "VTO_0058726" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0058726"
+    },
+    "FO_0000125" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000125"
+    },
+    "VTO_9020645" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9020645"
+    },
+    "VTO_9011092" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011092"
+    },
+    "FO_0000185" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000185"
+    },
+    "VTO_9023536" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9023536"
+    },
+    "VTO_9008337" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9008337"
+    },
+    "FO_0000030" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000030"
+    },
+    "VTO_9025306" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025306"
+    },
+    "VTO_9033755" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9033755"
+    },
+    "TAXRANK_0000002" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000002"
+    },
+    "VTO_9023440" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9023440"
+    },
+    "FO_0000038" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000038"
+    },
+    "VTO_9013302" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013302"
+    },
+    "VTO_9015850" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015850"
+    },
+    "FO_0000386" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000386"
+    },
+    "FO_0000197" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000197"
+    },
+    "VTO_9015917" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015917"
+    },
+    "VTO_0046389" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0046389"
+    },
+    "TAXRANK_0000026" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000026"
+    },
+    "VTO_9021132" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9021132"
+    },
+    "VTO_0000622" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000622"
+    },
+    "VTO_9025260" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025260"
+    },
+    "VTO_9010288" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9010288"
+    },
+    "VTO_9033234" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9033234"
+    },
+    "FO_0000429" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000429"
+    },
+    "VTO_9004731" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9004731"
+    },
+    "FO_0000200" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000200"
+    },
+    "VTO_9030991" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9030991"
+    },
+    "VTO_9014106" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9014106"
+    },
+    "FO_0000044" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000044"
+    },
+    "FO_0000462" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000462"
+    },
+    "VTO_9016138" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9016138"
+    },
+    "VTO_9002207" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9002207"
+    },
+    "FO_0000212" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000212"
+    },
+    "FO_0000027" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000027"
+    },
+    "VTO_9011747" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011747"
+    },
+    "VTO_9000916" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9000916"
+    },
+    "VTO_0058583" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0058583"
+    },
+    "FO_0000473" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000473",
+      "@type" : "@id"
+    },
+    "VTO_9011701" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011701"
+    },
+    "VTO_0059180" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0059180"
+    },
+    "VTO_9008395" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9008395"
+    },
+    "VTO_9019097" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019097"
+    },
+    "VTO_0000097" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000097"
+    },
+    "VTO_9012325" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9012325"
+    },
+    "FO_0000171" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000171",
+      "@type" : "@id"
+    },
+    "VTO_9019391" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019391"
+    },
+    "VTO_9029323" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9029323"
+    },
+    "VTO_9019434" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019434"
+    },
+    "VTO_0046391" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0046391"
+    },
+    "VTO_9025431" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025431"
+    },
+    "VTO_9011878" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011878"
+    },
+    "VTO_0058702" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0058702"
+    },
+    "VTO_9034371" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9034371"
+    },
+    "VTO_9015756" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015756"
+    },
+    "VTO_9023419" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9023419"
+    },
+    "TAXRANK_0000010" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000010"
+    },
+    "VTO_9025345" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025345"
+    },
+    "VTO_9000396" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9000396"
+    },
+    "VTO_9006426" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9006426"
+    },
+    "FO_0000231" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000231"
+    },
+    "VTO_9019527" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019527"
+    },
+    "VTO_9011787" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011787"
+    },
+    "VTO_9033410" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9033410"
+    },
+    "FO_0000368" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000368"
+    },
+    "VTO_9033157" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9033157"
+    },
+    "VTO_9025368" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025368"
+    },
+    "VTO_9006475" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9006475"
+    },
+    "VTO_9012845" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9012845"
+    },
+    "VTO_9025978" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025978"
+    },
+    "VTO_0000056" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000056"
+    },
+    "VTO_9025921" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025921"
+    },
+    "VTO_9015939" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015939"
+    },
+    "VTO_9026301" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9026301"
+    },
+    "VTO_9046417" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046417"
+    },
+    "VTO_9004533" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9004533"
+    },
+    "VTO_9014032" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9014032"
+    },
+    "VTO_0074321" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0074321"
+    },
+    "VTO_9019518" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019518"
+    },
+    "VTO_9026003" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9026003"
+    },
+    "VTO_0001463" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0001463"
+    },
+    "VTO_0080751" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0080751"
+    },
+    "FO_0000313" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000313"
+    },
+    "VTO_9025438" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025438"
+    },
+    "FO_0000458" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000458",
+      "@type" : "@id"
+    },
+    "VTO_0000512" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000512"
+    },
+    "VTO_0046330" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0046330"
+    },
+    "VTO_9018994" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9018994"
+    },
+    "VTO_9011872" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011872"
+    },
+    "VTO_9004527" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9004527"
+    },
+    "VTO_9020203" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9020203"
+    },
+    "VTO_9019447" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019447"
+    },
+    "VTO_0033645" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0033645"
+    },
+    "FO_0000063" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000063"
+    },
+    "VTO_9008335" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9008335"
+    },
+    "FO_0000145" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000145"
+    },
+    "VTO_9031050" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9031050"
+    },
+    "VTO_9019096" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019096"
+    },
+    "VTO_0058602" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0058602"
+    },
+    "FO_0000081" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000081"
+    },
+    "FO_0000111" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000111"
+    },
+    "VTO_9008357" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9008357"
+    },
+    "VTO_9019439" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019439"
+    },
+    "FO_0000181" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000181"
+    },
+    "VTO_9010398" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9010398"
+    },
+    "VTO_9008538" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9008538"
+    },
+    "FO_0000105" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000105"
+    },
+    "VTO_9014111" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9014111"
+    },
+    "VTO_9016109" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9016109"
+    },
+    "FO_0000229" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000229"
+    },
+    "TAXRANK_0000055" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000055"
+    },
+    "VTO_0033659" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0033659"
+    },
+    "FO_0000405" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000405"
+    },
+    "FO_0000135" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000135"
+    },
+    "VTO_0033624" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0033624"
+    },
+    "FO_0000383" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000383"
+    },
+    "FO_0000207" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000207"
+    },
+    "VTO_0058610" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0058610"
+    },
+    "FO_0000129" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000129",
+      "@type" : "@id"
+    },
+    "VTO_9015809" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015809"
+    },
+    "FO_0000335" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000335"
+    },
+    "VTO_0059171" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0059171"
+    },
+    "FO_0000253" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000253"
+    },
+    "VTO_9013946" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013946"
+    },
+    "VTO_9004735" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9004735"
+    },
+    "NCBITaxon_1365670" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_1365670"
+    },
+    "VTO_9010289" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9010289"
+    },
+    "VTO_9014041" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9014041"
+    },
+    "VTO_0046385" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0046385"
+    },
+    "FO_0000163" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000163"
+    },
+    "VTO_9024761" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024761"
+    },
+    "FO_0000382" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000382"
+    },
+    "VTO_0000081" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000081"
+    },
+    "VTO_0033663" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0033663"
+    },
+    "VTO_9015751" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015751"
+    },
+    "status" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#status"
+    },
+    "FO_0000329" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000329"
+    },
+    "FO_0000441" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000441"
+    },
+    "VTO_9025273" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025273"
+    },
+    "VTO_9030489" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9030489"
+    },
+    "VTO_9008301" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9008301"
+    },
+    "FO_0000406" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000406"
+    },
+    "VTO_9024465" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024465"
+    },
+    "NCBITaxon_86204" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_86204"
+    },
+    "FO_0000297" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000297"
+    },
+    "VTO_0033634" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0033634"
+    },
+    "FO_0000388" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000388"
+    },
+    "FO_0000020" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000020"
+    },
+    "VTO_9013604" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013604"
+    },
+    "FO_0000363" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000363"
+    },
+    "FO_0000172" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000172"
+    },
+    "VTO_9026147" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9026147"
+    },
+    "VTO_9015765" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015765"
+    },
+    "FO_0000330" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000330",
+      "@type" : "@id"
+    },
+    "VTO_9008349" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9008349"
+    },
+    "FO_0000489" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000489"
+    },
+    "FO_0000055" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000055"
+    },
+    "VTO_9030864" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9030864"
+    },
+    "VTO_9024168" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024168"
+    },
+    "FO_0000496" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000496"
+    },
+    "VTO_9024741" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024741"
+    },
+    "VTO_9046457" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046457"
+    },
+    "VTO_9016043" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9016043"
+    },
+    "FO_0000094" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000094"
+    },
+    "TAXRANK_0000053" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000053"
+    },
+    "VTO_9019498" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019498"
+    },
+    "FO_0000399" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000399"
+    },
+    "VTO_0074319" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0074319"
+    },
+    "VTO_9013960" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013960"
+    },
+    "VTO_0046364" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0046364"
+    },
+    "TAXRANK_0000040" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000040"
+    },
+    "VTO_9011742" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011742"
+    },
+    "FO_0000205" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000205"
+    },
+    "VTO_9016107" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9016107"
+    },
+    "VTO_9025360" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025360"
+    },
+    "FO_0000056" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000056"
+    },
+    "VTO_9013558" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013558"
+    },
+    "VTO_0080344" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0080344"
+    },
+    "hasOBONamespace" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"
+    },
+    "VTO_0033612" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0033612"
+    },
+    "VTO_9008570" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9008570"
+    },
+    "FO_0000304" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000304"
+    },
+    "VTO_9008372" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9008372"
+    },
+    "VTO_9011269" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011269"
+    },
+    "FO_0000126" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000126"
+    },
+    "VTO_9019098" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019098"
+    },
+    "VTO_9010295" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9010295"
+    },
+    "VTO_9025913" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025913"
+    },
+    "VTO_9013984" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013984"
+    },
+    "VTO_9008735" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9008735"
+    },
+    "VTO_9019394" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019394"
+    },
+    "VTO_0046366" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0046366"
+    },
+    "VTO_0058570" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0058570"
+    },
+    "FO_0000051" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000051"
+    },
+    "VTO_9025910" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025910"
+    },
+    "FO_0000268" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000268"
+    },
+    "VTO_9030507" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9030507"
+    },
+    "TAXRANK_0000041" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000041"
+    },
+    "VTO_9025295" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025295"
+    },
+    "FO_0000453" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000453"
+    },
+    "VTO_9008367" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9008367"
+    },
+    "VTO_9014078" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9014078"
+    },
+    "VTO_9014060" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9014060"
+    },
+    "VTO_0033649" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0033649"
+    },
+    "VTO_0033620" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0033620"
+    },
+    "VTO_9013568" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013568"
+    },
+    "VTO_9002206" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9002206"
+    },
+    "VTO_0046349" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0046349"
+    },
+    "FO_0000059" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000059"
+    },
+    "VTO_0046379" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0046379"
+    },
+    "VTO_9018628" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9018628"
+    },
+    "VTO_0058705" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0058705"
+    },
+    "FO_0000285" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000285"
+    },
+    "VTO_9002045" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9002045"
+    },
+    "VTO_9012735" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9012735"
+    },
+    "VTO_9009427" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9009427"
+    },
+    "deprecated" : {
+      "@id" : "http://www.w3.org/2002/07/owl#deprecated"
+    },
+    "VTO_9014065" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9014065"
+    },
+    "VTO_9025951" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025951"
+    },
+    "VTO_0074323" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0074323"
+    },
+    "VTO_9024758" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024758"
+    },
+    "VTO_9014040" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9014040"
+    },
+    "FO_0000110" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000110"
+    },
+    "VTO_9019103" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019103"
+    },
+    "VTO_9013591" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013591"
+    },
+    "FO_0000198" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000198"
+    },
+    "VTO_9019078" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019078"
+    },
+    "VTO_9014036" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9014036"
+    },
+    "VTO_9029066" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9029066"
+    },
+    "VTO_0033626" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0033626"
+    },
+    "VTO_9024760" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024760"
+    },
+    "VTO_9013565" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013565"
+    },
+    "VTO_9025458" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025458"
+    },
+    "VTO_0033621" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0033621"
+    },
+    "VTO_0058710" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0058710"
+    },
+    "FO_0000235" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000235",
+      "@type" : "@id"
+    },
+    "VTO_9014043" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9014043"
+    },
+    "VTO_9025950" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025950"
+    },
+    "VTO_9019401" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019401"
+    },
+    "VTO_0033656" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0033656"
+    },
+    "VTO_9025436" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025436"
+    },
+    "FO_0000320" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000320"
+    },
+    "VTO_9013600" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013600"
+    },
+    "VTO_9019045" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019045"
+    },
+    "VTO_0058704" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0058704"
+    },
+    "VTO_9031631" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9031631"
+    },
+    "VTO_0033667" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0033667"
+    },
+    "VTO_9007639" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9007639"
+    },
+    "FO_0000366" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000366"
+    },
+    "FO_0000106" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000106"
+    },
+    "VTO_9025922" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025922"
+    },
+    "VTO_9015732" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015732"
+    },
+    "VTO_9002204" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9002204"
+    },
+    "VTO_0074304" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0074304"
+    },
+    "VTO_9016108" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9016108"
+    },
+    "VTO_9013588" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013588"
+    },
+    "VTO_9000833" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9000833"
+    },
+    "VTO_9033566" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9033566"
+    },
+    "VTO_0074309" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0074309"
+    },
+    "VTO_9010729" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9010729"
+    },
+    "VTO_0033618" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0033618"
+    },
+    "VTO_9015622" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015622"
+    },
+    "NCBITaxon_1365672" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_1365672"
+    },
+    "FO_0000260" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000260"
+    },
+    "VTO_9025911" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025911"
+    },
+    "VTO_9033562" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9033562"
+    },
+    "VTO_9016179" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9016179"
+    },
+    "VTO_9025331" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025331"
+    },
+    "FO_0000413" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000413"
+    },
+    "VTO_9026558" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9026558"
+    },
+    "VTO_0074312" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0074312"
+    },
+    "VTO_9013709" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013709"
+    },
+    "VTO_9025977" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025977"
+    },
+    "VTO_9015799" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015799"
+    },
+    "VTO_0058553" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0058553"
+    },
+    "VTO_9024177" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024177"
+    },
+    "VTO_9014105" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9014105"
+    },
+    "VTO_9015806" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015806"
+    },
+    "VTO_9025925" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025925"
+    },
+    "FO_0000477" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000477"
+    },
+    "FO_0000443" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000443"
+    },
+    "FO_0000327" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000327"
+    },
+    "VTO_9033243" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9033243"
+    },
+    "VTO_9015689" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015689"
+    },
+    "VTO_9014080" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9014080"
+    },
+    "VTO_0042306" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0042306"
+    },
+    "VTO_0000055" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000055"
+    },
+    "FO_0000464" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000464"
+    },
+    "VTO_9015887" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015887"
+    },
+    "VTO_9015914" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015914"
+    },
+    "FO_0000079" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000079"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "VTO_9011875" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011875"
+    },
+    "VTO_9002213" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9002213"
+    },
+    "VTO_9011874" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011874"
+    },
+    "VTO_0074311" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0074311"
+    },
+    "FO_0000411" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000411"
+    },
+    "VTO_0058723" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0058723"
+    },
+    "VTO_9033435" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9033435"
+    },
+    "FO_0000154" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000154"
+    },
+    "FO_0000354" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000354"
+    },
+    "VTO_9046428" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046428"
+    },
+    "FO_0000408" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000408"
+    },
+    "VTO_9010747" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9010747"
+    },
+    "VTO_9019443" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019443"
+    },
+    "VTO_9025369" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025369"
+    },
+    "VTO_0001462" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0001462"
+    },
+    "FO_0000288" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000288"
+    },
+    "VTO_9031040" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9031040"
+    },
+    "VTO_9024744" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024744"
+    },
+    "VTO_9031581" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9031581"
+    },
+    "definition" : {
+      "@id" : "http://purl.obolibrary.org/obo/definition"
+    },
+    "VTO_9004561" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9004561"
+    },
+    "FO_0000164" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000164"
+    },
+    "FO_0000442" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000442"
+    },
+    "VTO_0059173" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0059173"
+    },
+    "VTO_9002040" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9002040"
+    },
+    "VTO_9008363" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9008363"
+    },
+    "TAXRANK_0000057" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000057"
+    },
+    "VTO_0058593" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0058593"
+    },
+    "FO_0000337" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000337",
+      "@type" : "@id"
+    },
+    "VTO_9013277" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013277"
+    },
+    "FO_0000191" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000191"
+    },
+    "TAXRANK_0000036" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000036"
+    },
+    "VTO_0058580" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0058580"
+    },
+    "VTO_0046361" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0046361"
+    },
+    "FO_0000338" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000338"
+    },
+    "VTO_0000054" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000054"
+    },
+    "VTO_9025326" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025326"
+    },
+    "VTO_9003988" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9003988"
+    },
+    "TAXRANK_0000045" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000045"
+    },
+    "FO_0000483" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000483",
+      "@type" : "@id"
+    },
+    "FO_0000032" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000032"
+    },
+    "VTO_9025437" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025437"
+    },
+    "FO_0000415" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000415"
+    },
+    "VTO_0000747" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000747"
+    },
+    "VTO_9010304" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9010304"
+    },
+    "VTO_9031036" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9031036"
+    },
+    "FO_0000256" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000256"
+    },
+    "VTO_9024673" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024673"
+    },
+    "VTO_9046442" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046442"
+    },
+    "VTO_0058708" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0058708"
+    },
+    "VTO_9004475" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9004475"
+    },
+    "VTO_9031075" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9031075"
+    },
+    "VTO_9019005" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019005"
+    },
+    "VTO_9025912" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025912"
+    },
+    "VTO_9012117" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9012117"
+    },
+    "VTO_9008336" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9008336"
+    },
+    "FO_0000259" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000259"
+    },
+    "FO_0000295" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000295"
+    },
+    "VTO_9019517" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019517"
+    },
+    "FO_0000161" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000161"
+    },
+    "VTO_9015885" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015885"
+    },
+    "VTO_9024152" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024152"
+    },
+    "FO_0000433" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000433",
+      "@type" : "@id"
+    },
+    "VTO_9024746" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024746"
+    },
+    "FO_0000211" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000211"
+    },
+    "VTO_9008350" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9008350"
+    },
+    "VTO_9013933" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013933"
+    },
+    "VTO_9015841" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015841"
+    },
+    "VTO_9012283" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9012283"
+    },
+    "hasSynonymType" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasSynonymType"
+    },
+    "VTO_9008360" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9008360"
+    },
+    "FO_0000189" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000189"
+    },
+    "hasAlternativeId" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"
+    },
+    "VTO_9002005" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9002005"
+    },
+    "VTO_9026345" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9026345"
+    },
+    "VTO_0080423" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0080423"
+    },
+    "FO_0000414" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000414"
+    },
+    "VTO_9010312" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9010312"
+    },
+    "VTO_9024745" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024745"
+    },
+    "FO_0000393" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000393"
+    },
+    "TAXRANK_0000037" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000037"
+    },
+    "VTO_9011726" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011726"
+    },
+    "VTO_9015702" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015702"
+    },
+    "VTO_9012771" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9012771"
+    },
+    "VTO_9018634" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9018634"
+    },
+    "FO_0000098" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000098"
+    },
+    "FO_0000343" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000343",
+      "@type" : "@id"
+    },
+    "VTO_9015923" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015923"
+    },
+    "VTO_0000006" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000006"
+    },
+    "VTO_9015888" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015888"
+    },
+    "FO_0000498" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000498"
+    },
+    "VTO_0041711" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0041711"
+    },
+    "VTO_9011134" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011134"
+    },
+    "VTO_9015920" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015920"
+    },
+    "VTO_9016175" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9016175"
+    },
+    "VTO_9014012" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9014012"
+    },
+    "VTO_9025941" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025941"
+    },
+    "VTO_9015882" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015882"
+    },
+    "VTO_9015851" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015851"
+    },
+    "VTO_9046470" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046470"
+    },
+    "VTO_9004554" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9004554"
+    },
+    "VTO_9015855" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015855"
+    },
+    "VTO_9008743" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9008743"
+    },
+    "VTO_9025435" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025435"
+    },
+    "VTO_9008374" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9008374"
+    },
+    "VTO_9000399" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9000399"
+    },
+    "VTO_9018632" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9018632"
+    },
+    "VTO_0000629" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000629"
+    },
+    "FO_0000267" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000267"
+    },
+    "VTO_9013586" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013586"
+    },
+    "VTO_9012757" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9012757"
+    },
+    "VTO_9033236" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9033236"
+    },
+    "VTO_0033615" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0033615"
+    },
+    "VTO_9026341" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9026341"
+    },
+    "VTO_9019414" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019414"
+    },
+    "NCBITaxon_497678" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_497678"
+    },
+    "FO_0000127" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000127"
+    },
+    "VTO_9046439" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046439"
+    },
+    "VTO_9000331" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9000331"
+    },
+    "FO_0000240" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000240",
+      "@type" : "@id"
+    },
+    "VTO_0046365" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0046365"
+    },
+    "VTO_9033267" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9033267"
+    },
+    "VTO_9012769" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9012769"
+    },
+    "FO_0000346" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000346"
+    },
+    "VTO_0000522" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000522"
+    },
+    "VTO_9016105" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9016105"
+    },
+    "VTO_9019555" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019555"
+    },
+    "FO_0000426" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000426",
+      "@type" : "@id"
+    },
+    "FO_0000087" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000087"
+    },
+    "VTO_9010728" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9010728"
+    },
+    "VTO_9019397" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019397"
+    },
+    "VTO_9001510" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9001510"
+    },
+    "title" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#title"
+    },
+    "VTO_9025432" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025432"
+    },
+    "VTO_9010466" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9010466"
+    },
+    "FO_0000124" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000124"
+    },
+    "VTO_0046388" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0046388"
+    },
+    "VTO_9031005" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9031005"
+    },
+    "VTO_0058575" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0058575"
+    },
+    "VTO_9024153" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024153"
+    },
+    "FO_0000490" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000490"
+    },
+    "VTO_9030990" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9030990"
+    },
+    "VTO_9024795" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024795"
+    },
+    "FO_0000448" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000448"
+    },
+    "VTO_0000513" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000513"
+    },
+    "VTO_0000603" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000603"
+    },
+    "VTO_9020192" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9020192"
+    },
+    "FO_0000373" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000373"
+    },
+    "VTO_9032780" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9032780"
+    },
+    "VTO_9004566" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9004566"
+    },
+    "FO_0000225" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000225"
+    },
+    "FO_0000375" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000375"
+    },
+    "VTO_9046468" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046468"
+    },
+    "FO_0000360" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000360"
+    },
+    "VTO_9046465" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046465"
+    },
+    "VTO_9046467" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046467"
+    },
+    "VTO_9033199" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9033199"
+    },
+    "VTO_9025262" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025262"
+    },
+    "VTO_9016174" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9016174"
+    },
+    "VTO_9004737" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9004737"
+    },
+    "VTO_9002006" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9002006"
+    },
+    "FO_0000049" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000049",
+      "@type" : "@id"
+    },
+    "FO_0000296" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000296"
+    },
+    "FO_0000023" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000023"
+    },
+    "VTO_9016170" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9016170"
+    },
+    "FO_0000349" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000349"
+    },
+    "VTO_9013961" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013961"
+    },
+    "VTO_9024677" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024677"
+    },
+    "VTO_9046452" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046452"
+    },
+    "VTO_9018998" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9018998"
+    },
+    "VTO_9015731" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015731"
+    },
+    "FO_0000004" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000004"
+    },
+    "VTO_9019451" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019451"
+    },
+    "FO_0000424" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000424"
+    },
+    "VTO_9024773" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024773"
+    },
+    "VTO_9011119" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011119"
+    },
+    "VTO_9033949" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9033949"
+    },
+    "FO_0000318" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000318"
+    },
+    "VTO_9019082" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019082"
+    },
+    "VTO_0058603" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0058603"
+    },
+    "VTO_9046458" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046458"
+    },
+    "FO_0000276" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000276"
+    },
+    "VTO_9004573" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9004573"
+    },
+    "VTO_9013130" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013130"
+    },
+    "VTO_9025359" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025359"
+    },
+    "VTO_9009642" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9009642"
+    },
+    "VTO_9019184" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019184"
+    },
+    "VTO_9025979" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025979"
+    },
+    "VTO_9015895" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015895"
+    },
+    "TAXRANK_0000054" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000054"
+    },
+    "VTO_9025971" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025971"
+    },
+    "VTO_0058700" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0058700"
+    },
+    "VTO_9019432" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019432"
+    },
+    "VTO_9002000" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9002000"
+    },
+    "VTO_9010091" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9010091"
+    },
+    "FO_0000348" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000348",
+      "@type" : "@id"
+    },
+    "FO_0000306" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000306"
+    },
+    "VTO_9046447" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046447"
+    },
+    "VTO_9017891" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9017891"
+    },
+    "VTO_0033926" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0033926"
+    },
+    "VTO_9033235" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9033235"
+    },
+    "VTO_9011779" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011779"
+    },
+    "VTO_9033736" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9033736"
+    },
+    "FO_0000026" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000026"
+    },
+    "VTO_0033643" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0033643"
+    },
+    "VTO_9024183" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024183"
+    },
+    "FO_0000425" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000425",
+      "@type" : "@id"
+    },
+    "VTO_0074303" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0074303"
+    },
+    "VTO_9015800" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015800"
+    },
+    "VTO_9008358" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9008358"
+    },
+    "FO_0000086" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000086"
+    },
+    "VTO_0000061" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000061"
+    },
+    "VTO_9023369" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9023369"
+    },
+    "VTO_9012123" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9012123"
+    },
+    "NCBITaxon_166763" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_166763"
+    },
+    "VTO_9004567" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9004567"
+    },
+    "ZFS_0100000" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#ZFS_0100000"
+    },
+    "VTO_9008737" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9008737"
+    },
+    "VTO_9010464" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9010464"
+    },
+    "VTO_9033210" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9033210"
+    },
+    "VTO_9000951" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9000951"
+    },
+    "VTO_9008383" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9008383"
+    },
+    "VTO_9013983" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013983"
+    },
+    "VTO_9015490" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015490"
+    },
+    "VTO_9012257" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9012257"
+    },
+    "FO_0000208" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000208"
+    },
+    "VTO_9034370" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9034370"
+    },
+    "VTO_9024672" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024672"
+    },
+    "VTO_9015500" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015500"
+    },
+    "VTO_9019515" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019515"
+    },
+    "VTO_0058606" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0058606"
+    },
+    "modified" : {
+      "@id" : "http://mybiodiversityontologies.um.edu.my/FO.owl#modified"
+    },
+    "FO_0000097" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000097",
+      "@type" : "@id"
+    },
+    "VTO_9033242" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9033242"
+    },
+    "VTO_9031052" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9031052"
+    },
+    "VTO_9013566" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013566"
+    },
+    "VTO_9046464" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046464"
+    },
+    "VTO_9023374" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9023374"
+    },
+    "VTO_9008555" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9008555"
+    },
+    "FO_0000025" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000025"
+    },
+    "VTO_9007263" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9007263"
+    },
+    "VTO_0046342" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0046342"
+    },
+    "VTO_9013966" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013966"
+    },
+    "VTO_9008346" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9008346"
+    },
+    "VTO_9009644" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9009644"
+    },
+    "VTO_9024786" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024786"
+    },
+    "VTO_0041706" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0041706"
+    },
+    "VTO_9046438" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046438"
+    },
+    "VTO_9016042" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9016042"
+    },
+    "VTO_9030568" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9030568"
+    },
+    "VTO_0080746" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0080746"
+    },
+    "VTO_0000521" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000521"
+    },
+    "VTO_9008334" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9008334"
+    },
+    "VTO_9019088" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019088"
+    },
+    "VTO_9046440" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046440"
+    },
+    "FO_0000314" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000314"
+    },
+    "VTO_9026555" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9026555"
+    },
+    "VTO_9033737" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9033737"
+    },
+    "VTO_9024769" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024769"
+    },
+    "FO_0000064" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000064"
+    },
+    "VTO_0058733" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0058733"
+    },
+    "TAXRANK_0000056" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000056"
+    },
+    "VTO_9011706" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011706"
+    },
+    "VTO_0000098" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000098"
+    },
+    "VTO_9019042" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019042"
+    },
+    "VTO_0080747" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0080747"
+    },
+    "FO_0000220" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000220"
+    },
+    "VTO_9002092" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9002092"
+    },
+    "VTO_0058611" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0058611"
+    },
+    "VTO_0046325" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0046325"
+    },
+    "VTO_9011108" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011108"
+    },
+    "FO_0000431" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000431"
+    },
+    "FO_0000048" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000048"
+    },
+    "VTO_9015506" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015506"
+    },
+    "VTO_9025272" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025272"
+    },
+    "VTO_9011741" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011741"
+    },
+    "VTO_0033647" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0033647"
+    },
+    "VTO_9015808" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015808"
+    },
+    "VTO_9016731" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9016731"
+    },
+    "VTO_9012834" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9012834"
+    },
+    "VTO_9033087" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9033087"
+    },
+    "FO_0000279" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000279"
+    },
+    "VTO_9011712" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011712"
+    },
+    "VTO_9013940" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013940"
+    },
+    "VTO_0033668" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0033668"
+    },
+    "VTO_0080725" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0080725"
+    },
+    "VTO_0058597" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0058597"
+    },
+    "VTO_9013557" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013557"
+    },
+    "VTO_9026002" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9026002"
+    },
+    "VTO_0000076" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000076"
+    },
+    "VTO_9012774" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9012774"
+    },
+    "VTO_9014082" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9014082"
+    },
+    "VTO_9008302" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9008302"
+    },
+    "FO_0000058" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000058"
+    },
+    "VTO_9013609" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013609"
+    },
+    "VTO_0000625" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000625"
+    },
+    "FO_0000286" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000286"
+    },
+    "FO_0000263" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000263",
+      "@type" : "@id"
+    },
+    "VTO_9011849" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011849"
+    },
+    "VTO_9008368" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9008368"
+    },
+    "VTO_9009598" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9009598"
+    },
+    "VTO_9013279" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013279"
+    },
+    "VTO_9013548" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013548"
+    },
+    "FO_0000160" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000160"
+    },
+    "VTO_9019497" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019497"
+    },
+    "VTO_9018203" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9018203"
+    },
+    "FO_0000084" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000084"
+    },
+    "VTO_9026036" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9026036"
+    },
+    "FO_0000074" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000074"
+    },
+    "VTO_9013285" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013285"
+    },
+    "VTO_9012173" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9012173"
+    },
+    "VTO_0000073" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000073"
+    },
+    "VTO_9033232" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9033232"
+    },
+    "VTO_9011740" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011740"
+    },
+    "TAXRANK_0000021" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000021"
+    },
+    "VTO_9009646" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9009646"
+    },
+    "VTO_9015722" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015722"
+    },
+    "TAXRANK_0000001" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000001"
+    },
+    "VTO_9026354" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9026354"
+    },
+    "FO_0000417" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000417"
+    },
+    "TAXRANK_0000052" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000052"
+    },
+    "VTO_9024777" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024777"
+    },
+    "FO_0000243" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000243"
+    },
+    "VTO_0080422" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0080422"
+    },
+    "VTO_9015805" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015805"
+    },
+    "VTO_0000628" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000628"
+    },
+    "VTO_9025463" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025463"
+    },
+    "VTO_9025430" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025430"
+    },
+    "VTO_9025465" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025465"
+    },
+    "VTO_0058588" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0058588"
+    },
+    "VTO_9033205" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9033205"
+    },
+    "VTO_9032420" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9032420"
+    },
+    "FO_0000316" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000316"
+    },
+    "VTO_9025266" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025266"
+    },
+    "VTO_9013985" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013985"
+    },
+    "VTO_9026377" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9026377"
+    },
+    "VTO_9011902" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011902"
+    },
+    "VTO_9046472" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046472"
+    },
+    "VTO_9024675" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024675"
+    },
+    "FO_0000447" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000447"
+    },
+    "VTO_9015878" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015878"
+    },
+    "FO_0000509" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000509"
+    },
+    "VTO_9012146" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9012146"
+    },
+    "FO_0000280" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000280",
+      "@type" : "@id"
+    },
+    "VTO_9028805" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9028805"
+    },
+    "VTO_9046445" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046445"
+    },
+    "FO_0000407" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000407"
+    },
+    "FO_0000395" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000395"
+    },
+    "VTO_9025361" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025361"
+    },
+    "VTO_9026560" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9026560"
+    },
+    "VTO_9033227" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9033227"
+    },
+    "VTO_0080424" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0080424"
+    },
+    "VTO_9019416" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019416"
+    },
+    "VTO_9014052" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9014052"
+    },
+    "FO_0000251" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000251"
+    },
+    "VTO_9011873" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011873"
+    },
+    "FO_0000133" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000133"
+    },
+    "VTO_9025918" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025918"
+    },
+    "VTO_9014085" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9014085"
+    },
+    "VTO_9015759" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015759"
+    },
+    "FO_0000075" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000075"
+    },
+    "FO_0000352" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000352"
+    },
+    "VTO_9016141" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9016141"
+    },
+    "VTO_9015694" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015694"
+    },
+    "VTO_9033089" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9033089"
+    },
+    "VTO_9015761" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015761"
+    },
+    "VTO_0000096" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000096"
+    },
+    "VTO_9009052" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9009052"
+    },
+    "VTO_9024180" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024180"
+    },
+    "VTO_9030285" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9030285"
+    },
+    "FO_0000039" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000039"
+    },
+    "FO_0000088" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000088"
+    },
+    "FO_0000312" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000312"
+    },
+    "TAXRANK_0000039" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000039"
+    },
+    "FO_0000002" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000002"
+    },
+    "VTO_9015803" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015803"
+    },
+    "VTO_0033642" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0033642"
+    },
+    "VTO_0000748" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000748"
+    },
+    "VTO_9025334" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025334"
+    },
+    "VTO_9030294" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9030294"
+    },
+    "FO_0000250" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000250"
+    },
+    "VTO_0049816" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0049816"
+    },
+    "VTO_9019514" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019514"
+    },
+    "VTO_0046340" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0046340"
+    },
+    "VTO_0033648" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0033648"
+    },
+    "VTO_9013602" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013602"
+    },
+    "VTO_9025489" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025489"
+    },
+    "FO_0000273" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000273"
+    },
+    "VTO_9011713" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011713"
+    },
+    "VTO_0033658" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0033658"
+    },
+    "VTO_9015691" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015691"
+    },
+    "def" : {
+      "@id" : "http://purl.obolibrary.org/obo/def"
+    },
+    "FO_0000061" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000061"
+    },
+    "VTO_9031234" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9031234"
+    },
+    "FO_0000175" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000175"
+    },
+    "VTO_9026004" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9026004"
+    },
+    "FO_0000037" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000037"
+    },
+    "FO_0000333" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000333"
+    },
+    "VTO_9015947" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015947"
+    },
+    "FO_0000194" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000194"
+    },
+    "VTO_0033655" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0033655"
+    },
+    "FO_0000014" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000014"
+    },
+    "VTO_9025938" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025938"
+    },
+    "VTO_9016173" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9016173"
+    },
+    "FO_0000195" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000195"
+    },
+    "FO_0000244" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000244"
+    },
+    "VTO_9025920" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025920"
+    },
+    "VTO_9025471" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025471"
+    },
+    "VTO_9024684" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024684"
+    },
+    "VTO_9019483" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019483"
+    },
+    "VTO_9024787" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024787"
+    },
+    "VTO_0052351" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0052351"
+    },
+    "VTO_9015726" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015726"
+    },
+    "VTO_9030566" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9030566"
+    },
+    "VTO_9024170" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024170"
+    },
+    "has_rank" : {
+      "@id" : "http://purl.obolibrary.org/obo/vto#has_rank"
+    },
+    "VTO_0080420" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0080420"
+    },
+    "VTO_9000404" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9000404"
+    },
+    "FO_0000238" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000238"
+    },
+    "FO_0000419" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000419"
+    },
+    "FO_0000412" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000412"
+    },
+    "FO_0000188" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000188"
+    },
+    "VTO_9025934" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025934"
+    },
+    "FO_0000226" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000226"
+    },
+    "VTO_9011300" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011300"
+    },
+    "VTO_9034263" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9034263"
+    },
+    "VTO_0000511" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000511"
+    },
+    "FO_0000358" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000358"
+    },
+    "VTO_0046374" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0046374"
+    },
+    "VTO_9010964" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9010964"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "VTO_9011266" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011266"
+    },
+    "VTO_0033630" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0033630"
+    },
+    "VTO_9016133" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9016133"
+    },
+    "VTO_9014949" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9014949"
+    },
+    "TAXRANK_0000048" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000048"
+    },
+    "VTO_9024742" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024742"
+    },
+    "VTO_9024785" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024785"
+    },
+    "FO_0000143" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000143"
+    },
+    "VTO_9016104" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9016104"
+    },
+    "FO_0000459" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000459",
+      "@type" : "@id"
+    },
+    "FO_0000326" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000326"
+    },
+    "hasDbXref" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref"
+    },
+    "VTO_9018630" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9018630"
+    },
+    "TAXRANK_0000018" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000018"
+    },
+    "FO_0000401" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000401"
+    },
+    "VTO_9013301" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013301"
+    },
+    "VTO_9024793" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024793"
+    },
+    "VTO_9025909" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025909"
+    },
+    "FO_0000209" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000209"
+    },
+    "VTO_9011129" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011129"
+    },
+    "VTO_0046341" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0046341"
+    },
+    "VTO_0000608" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000608"
+    },
+    "VTO_9019404" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019404"
+    },
+    "FO_0000440" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000440"
+    },
+    "VTO_0046351" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0046351"
+    },
+    "VTO_9013982" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013982"
+    },
+    "FO_0000178" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000178"
+    },
+    "FO_0000156" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000156"
+    },
+    "FO_0000454" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000454"
+    },
+    "VTO_0033613" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0033613"
+    },
+    "FO_0000104" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000104"
+    },
+    "FO_0000371" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000371"
+    },
+    "VTO_9015518" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015518"
+    },
+    "VTO_9009599" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9009599"
+    },
+    "FO_0000100" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000100"
+    },
+    "VTO_0058578" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0058578"
+    },
+    "VTO_0000527" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000527"
+    },
+    "VTO_9025936" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025936"
+    },
+    "VTO_0000539" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000539"
+    },
+    "VTO_9025298" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025298"
+    },
+    "VTO_9046453" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046453"
+    },
+    "VTO_9013605" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013605"
+    },
+    "VTO_9024182" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024182"
+    },
+    "contributor" : {
+      "@id" : "http://mybiodiversityontologies.um.edu.my/FO.owl#contributor"
+    },
+    "VTO_9013547" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013547"
+    },
+    "VTO_9010287" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9010287"
+    },
+    "VTO_0000620" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000620"
+    },
+    "VTO_0033640" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0033640"
+    },
+    "VTO_9015915" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015915"
+    },
+    "VTO_9015695" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015695"
+    },
+    "VTO_9019526" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019526"
+    },
+    "VTO_9025364" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025364"
+    },
+    "FO_0000370" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000370"
+    },
+    "VTO_9008375" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9008375"
+    },
+    "VTO_9014423" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9014423"
+    },
+    "VTO_0033614" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0033614"
+    },
+    "FO_0000266" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000266"
+    },
+    "VTO_9011702" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011702"
+    },
+    "VTO_9008385" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9008385"
+    },
+    "VTO_9023445" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9023445"
+    },
+    "FO_0000317" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000317"
+    },
+    "VTO_9015762" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015762"
+    },
+    "FO_0000168" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000168"
+    },
+    "TAXRANK_0000033" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000033"
+    },
+    "VTO_9015938" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015938"
+    },
+    "FO_0000491" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000491"
+    },
+    "VTO_9001511" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9001511"
+    },
+    "VTO_9015750" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015750"
+    },
+    "FO_0000249" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000249"
+    },
+    "VTO_9019637" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019637"
+    },
+    "VTO_9031203" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9031203"
+    },
+    "VTO_9013603" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013603"
+    },
+    "VTO_0074316" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0074316"
+    },
+    "FO_0000007" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000007"
+    },
+    "VTO_9033085" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9033085"
+    },
+    "VTO_9011894" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011894"
+    },
+    "VTO_9016176" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9016176"
+    },
+    "VTO_9015690" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015690"
+    },
+    "VTO_9025329" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025329"
+    },
+    "FO_0000011" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000011"
+    },
+    "FO_0000294" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000294"
+    },
+    "FO_0000485" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000485"
+    },
+    "VTO_9008742" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9008742"
+    },
+    "FO_0000428" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000428"
+    },
+    "FO_0000350" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000350"
+    },
+    "FO_0000299" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000299"
+    },
+    "VTO_9025946" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025946"
+    },
+    "VTO_9029063" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9029063"
+    },
+    "VTO_9015886" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015886"
+    },
+    "VTO_9046454" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046454"
+    },
+    "VTO_9011699" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011699"
+    },
+    "VTO_9016171" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9016171"
+    },
+    "VTO_9022887" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9022887"
+    },
+    "VTO_0058547" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0058547"
+    },
+    "VTO_9012832" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9012832"
+    },
+    "FO_0000379" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000379"
+    },
+    "VTO_9015916" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015916"
+    },
+    "VTO_9011711" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011711"
+    },
+    "VTO_9015944" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015944"
+    },
+    "NCBITaxon_1109016" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_1109016"
+    },
+    "VTO_0033902" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0033902"
+    },
+    "VTO_9013973" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013973"
+    },
+    "FO_0000141" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000141"
+    },
+    "VTO_0033623" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0033623"
+    },
+    "FO_0000444" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000444"
+    },
+    "VTO_9025434" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025434"
+    },
+    "VTO_9029208" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9029208"
+    },
+    "FO_0000146" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000146"
+    },
+    "VTO_0059170" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0059170"
+    },
+    "VTO_9031420" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9031420"
+    },
+    "FO_0000357" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000357"
+    },
+    "VTO_9024783" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024783"
+    },
+    "VTO_9026327" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9026327"
+    },
+    "VTO_9016136" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9016136"
+    },
+    "VTO_9010311" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9010311"
+    },
+    "FO_0000310" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000310",
+      "@type" : "@id"
+    },
+    "ZFA_0100000" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#ZFA_0100000"
+    },
+    "VTO_9004479" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9004479"
+    },
+    "VTO_9012245" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9012245"
+    },
+    "VTO_9025947" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025947"
+    },
+    "VTO_9046441" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046441"
+    },
+    "VTO_9013572" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013572"
+    },
+    "VTO_9046432" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046432"
+    },
+    "VTO_9016111" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9016111"
+    },
+    "FO_0000131" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000131"
+    },
+    "VTO_9000120" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9000120"
+    },
+    "VTO_9033241" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9033241"
+    },
+    "FO_0000116" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000116"
+    },
+    "TAXRANK_0000006" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000006"
+    },
+    "FO_0000085" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000085"
+    },
+    "FO_0000362" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000362"
+    },
+    "VTO_9046461" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046461"
+    },
+    "VTO_9014062" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9014062"
+    },
+    "VTO_0074305" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0074305"
+    },
+    "VTO_9031032" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9031032"
+    },
+    "VTO_9014911" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9014911"
+    },
+    "VTO_0000010" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000010"
+    },
+    "FO_0000452" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000452"
+    },
+    "FO_0000139" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000139"
+    },
+    "VTO_9024775" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024775"
+    },
+    "VTO_9030299" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9030299"
+    },
+    "VTO_9024778" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024778"
+    },
+    "VTO_0046333" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0046333"
+    },
+    "FO_0000147" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000147"
+    },
+    "VTO_9025294" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025294"
+    },
+    "VTO_9010316" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9010316"
+    },
+    "VTO_0033619" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0033619"
+    },
+    "VTO_9025968" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025968"
+    },
+    "VTO_0033646" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0033646"
+    },
+    "VTO_0058557" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0058557"
+    },
+    "VTO_9025916" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025916"
+    },
+    "VTO_0058559" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0058559"
+    },
+    "is_ancient_species" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#is_ancient_species"
+    },
+    "TAXRANK_0000004" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000004"
+    },
+    "FO_0000387" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000387"
+    },
+    "FO_0000378" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000378"
+    },
+    "VTO_0033616" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0033616"
+    },
+    "VTO_9014091" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9014091"
+    },
+    "NCBITaxon_150287" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_150287"
+    },
+    "VTO_9016119" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9016119"
+    },
+    "VTO_0000631" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000631"
+    },
+    "VTO_9002086" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9002086"
+    },
+    "FO_0000502" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000502"
+    },
+    "VTO_9008373" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9008373"
+    },
+    "definitionSource" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#definitionSource"
+    },
+    "FO_0000123" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000123"
+    },
+    "FO_0000283" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000283"
+    },
+    "VTO_9013592" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013592"
+    },
+    "VTO_0001464" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0001464"
+    },
+    "VTO_9023540" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9023540"
+    },
+    "VTO_9013971" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013971"
+    },
+    "FO_0000242" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000242"
+    },
+    "FO_0000206" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000206"
+    },
+    "VTO_9008554" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9008554"
+    },
+    "VTO_9016090" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9016090"
+    },
+    "VTO_9046433" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046433"
+    },
+    "VTO_0058584" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0058584"
+    },
+    "VTO_9014039" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9014039"
+    },
+    "VTO_0074322" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0074322"
+    },
+    "VTO_9007743" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9007743"
+    },
+    "VTO_9011728" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011728"
+    },
+    "VTO_9008338" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9008338"
+    },
+    "VTO_9019467" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019467"
+    },
+    "VTO_9031051" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9031051"
+    },
+    "VTO_0080753" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0080753"
+    },
+    "VTO_0000057" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000057"
+    },
+    "VTO_0000070" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000070"
+    },
+    "VTO_0000001" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000001"
+    },
+    "TAXRANK_0000028" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000028"
+    },
+    "FO_0000290" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000290"
+    },
+    "VTO_9024774" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024774"
+    },
+    "VTO_9013932" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013932"
+    },
+    "VTO_9015921" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015921"
+    },
+    "FO_0000367" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000367"
+    },
+    "VTO_0058589" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0058589"
+    },
+    "TAXRANK_0000022" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000022"
+    },
+    "VTO_0046358" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0046358"
+    },
+    "FO_0000303" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000303"
+    },
+    "VTO_9011305" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011305"
+    },
+    "VTO_9019083" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019083"
+    },
+    "description" : {
+      "@id" : "http://mybiodiversityontologies.um.edu.my/FO.owl#description"
+    },
+    "FO_0000374" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000374"
+    },
+    "VTO_9033155" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9033155"
+    },
+    "FO_0000005" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000005"
+    },
+    "VTO_9024146" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9024146"
+    },
+    "VTO_9025302" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025302"
+    },
+    "VTO_9025470" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025470"
+    },
+    "VTO_0033641" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0033641"
+    },
+    "VTO_0059169" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0059169"
+    },
+    "VTO_9008341" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9008341"
+    },
+    "FO_0000307" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000307"
+    },
+    "VTO_0046360" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0046360"
+    },
+    "FO_0000421" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000421"
+    },
+    "VTO_9034066" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9034066"
+    },
+    "VTO_9025945" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025945"
+    },
+    "VTO_0058701" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0058701"
+    },
+    "VTO_9011776" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011776"
+    },
+    "VTO_0033664" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0033664"
+    },
+    "VTO_9013959" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013959"
+    },
+    "VTO_0033631" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0033631"
+    },
+    "VTO_9012291" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9012291"
+    },
+    "VTO_0046327" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0046327"
+    },
+    "VTO_9031030" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9031030"
+    },
+    "VTO_9026337" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9026337"
+    },
+    "VTO_9015937" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015937"
+    },
+    "FO_0000158" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000158",
+      "@type" : "@id"
+    },
+    "VTO_0000614" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000614"
+    },
+    "VTO_9010306" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9010306"
+    },
+    "VTO_9046416" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046416"
+    },
+    "VTO_0046359" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0046359"
+    },
+    "VTO_9031010" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9031010"
+    },
+    "VTO_9046422" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046422"
+    },
+    "VTO_9025370" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025370"
+    },
+    "VTO_9025343" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025343"
+    },
+    "VTO_9000948" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9000948"
+    },
+    "VTO_9000410" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9000410"
+    },
+    "VTO_9011298" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011298"
+    },
+    "VTO_9019493" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019493"
+    },
+    "FO_0000284" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000284"
+    },
+    "VTO_0074314" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0074314"
+    },
+    "xref" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOWL#xref"
+    },
+    "VTO_0000008" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000008"
+    },
+    "VTO_0046331" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0046331"
+    },
+    "NCBITaxon_1365705" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_1365705"
+    },
+    "VTO_9025980" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025980"
+    },
+    "VTO_9026351" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9026351"
+    },
+    "VTO_0000067" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000067"
+    },
+    "VTO_0000607" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0000607"
+    },
+    "VTO_9025459" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025459"
+    },
+    "VTO_0046387" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0046387"
+    },
+    "VTO_9046469" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9046469"
+    },
+    "VTO_9028810" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9028810"
+    },
+    "VTO_0046300" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0046300"
+    },
+    "VTO_9015492" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015492"
+    },
+    "VTO_9015912" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9015912"
+    },
+    "VTO_9011877" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011877"
+    },
+    "TAXRANK_0000047" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000047"
+    },
+    "VTO_9007696" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9007696"
+    },
+    "VTO_9027295" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9027295"
+    },
+    "FO_0000437" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000437",
+      "@type" : "@id"
+    },
+    "FO_0000132" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000132"
+    },
+    "VTO_0058712" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0058712"
+    },
+    "VTO_9019079" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019079"
+    },
+    "VTO_9013948" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013948"
+    },
+    "VTO_9014038" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9014038"
+    },
+    "VTO_0033638" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0033638"
+    },
+    "FO_0000291" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000291"
+    },
+    "FO_0000305" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000305"
+    },
+    "VTO_0059190" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0059190"
+    },
+    "FO_0000073" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000073"
+    },
+    "FO_0000364" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000364"
+    },
+    "VTO_9004524" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9004524"
+    },
+    "FO_0000247" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000247"
+    },
+    "VTO_9031011" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9031011"
+    },
+    "FO_0000040" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000040"
+    },
+    "VTO_0074315" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0074315"
+    },
+    "TAXRANK_0000044" : {
+      "@id" : "http://purl.obolibrary.org/obo/TAXRANK_0000044"
+    },
+    "FO_0000449" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000449"
+    },
+    "VTO_0074308" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0074308"
+    },
+    "FO_0000233" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000233"
+    },
+    "FO_0000184" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000184"
+    },
+    "FO_0000101" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000101"
+    },
+    "FO_0000047" : {
+      "@id" : "https://w3id.org/dsablum/FishOntology#FO_0000047"
+    },
+    "VTO_9019407" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9019407"
+    },
+    "VTO_0033627" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0033627"
+    },
+    "VTO_9025491" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9025491"
+    },
+    "VTO_9013601" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9013601"
+    },
+    "VTO_9008384" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9008384"
+    },
+    "VTO_0058579" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_0058579"
+    },
+    "VTO_9011724" : {
+      "@id" : "http://purl.obolibrary.org/obo/VTO_9011724"
+    }
+  }
+}
